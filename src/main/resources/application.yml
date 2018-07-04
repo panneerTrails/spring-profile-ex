@@ -1,0 +1,17 @@
+info:
+  description: "Service for spring profile trails"
+
+spring:
+  application:
+    name: spring-profile-ex
+
+security:
+  basic:
+    enabled: false
+
+server:
+  port: 9095
+
+environment:
+  name: local
+  host: local.mrll.com
