@@ -6,3 +6,5 @@ applications:
   path: build\libs\spring-profile-ex-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   memory: 680M
+  env:
+    SPRING_PROFILES_ACTIVE: dev,nosql
